@@ -103,21 +103,16 @@ function NotesYoutubeEditor() {
             
             <ScreenShort mouseOverScreenShortIcon={mouseOverScreenShortIcon} setscreenCapture={setscreenCapture} setPictureCaptured={setPictureCaptured}/>
             </div>
-            
-            <div id="notes-yt_icon-div" ref={notesIcon} onClick={notesIconMove}>            
+{/*             
+            <div id="notes-yt_icon-div" ref={notesIcon} onClick={notesIconMove} >            
                 <BiNote size={40} id="note-yt-icon" style={{color:notesActiveYoutube?"white":"black"}} onClick={notesIconMove} />
-            </div>          
-            
-            <div id="notes-yt-notesDiv" ref={notesDiv} contentEditable={true} spellCheck={false} onInput={(event)=>{setNotesContent(event.currentTarget.nodeValue)}}>
-        
-            </div>
+            </div>           */}
 
             <div id="check-screenshort-image-div" style={{display:PictureCaptured?"flex":"none"}}>
                 <img src={close} id="screenshort-close-icon" onClick={()=>{setscreenCapture(null);setPictureCaptured(false)}}/>
                 <img src={screenCapture} id="screenshort-image"/>
             </div>  
 
-            <button onClick={show} className="btn btn-dark" id="screenshort-upload-btn" style={{display:PictureCaptured?"block":"none"}}>Upload</button>      
 
         </div>
     )
@@ -125,6 +120,3 @@ function NotesYoutubeEditor() {
 
 export default NotesYoutubeEditor
 
-// tex=`${text.innerHTML} <br/> <img src=${bac} width="50px" height="50px"/>` 
-// console.log(tex)
-// text.innerHTML=tex
