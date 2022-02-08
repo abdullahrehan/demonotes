@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/demov1/static/css/main.91323610.css",
+    "main.js": "/demov1/static/js/main.a5839546.js",
+    "static/js/787.09238d09.chunk.js": "/demov1/static/js/787.09238d09.chunk.js",
+    "static/media/fileShare1628276178059.jpg": "/demov1/static/media/fileShare1628276178059.f5ff8952633b8284b091.jpg",
+    "static/media/close.png": "/demov1/static/media/close.0d66eabe20a53a292897.png",
+    "index.html": "/demov1/index.html",
+    "main.91323610.css.map": "/demov1/static/css/main.91323610.css.map",
+    "main.a5839546.js.map": "/demov1/static/js/main.a5839546.js.map",
+    "787.09238d09.chunk.js.map": "/demov1/static/js/787.09238d09.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91323610.css",
+    "static/js/main.a5839546.js"
+  ]
+}
